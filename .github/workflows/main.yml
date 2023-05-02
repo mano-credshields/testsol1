@@ -20,4 +20,5 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install sayhellox123==0.6 click
-          helloworld --name="mano"
+      - name: run pkg
+        run: helloworld --name="mano"
