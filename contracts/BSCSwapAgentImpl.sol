@@ -5,9 +5,9 @@ import "./bep20/BEP20UpgradeableProxy.sol";
 import './interfaces/IProxyInitialize.sol';
 import "openzeppelin-solidity/contracts/token/ERC20/SafeERC20.sol";
 
-import "openzeppelin-solidity/contracts/GSN/Context.sol";
+import "openzeppelin-solidity/contracts/GSN/Context.sol"
 
-contract  BSCSwapAgentImpl is Context {
+contract  BSCSwapAgentImpl is Context 
 
 
     using SafeERC20 for IERC20;
