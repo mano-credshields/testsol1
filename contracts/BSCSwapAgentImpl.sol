@@ -7,7 +7,7 @@ import "openzeppelin-solidity/contracts/token/ERC20/SafeERC20.sol";
 
 import "openzeppelin-solidity/contracts/GSN/Context.sol";
 
-contract  BSCSwapAgentImpl is Contex
+contract  BSCSwapAgentImpl is Context {
     using SafeERC20 for IERC20;
 
     mapping(address => address) public swapMappingETH2BSC;
